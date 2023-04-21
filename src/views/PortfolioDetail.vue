@@ -18,7 +18,7 @@
         <div class="text-container">
         <h4 class="overskrift">{{ portfolioDetails.title }}</h4>
         <p>
-          {{ portfolioDetails.text }}
+          {{ portfolioDetails.text }} hej
         </p>
         </div>
         
@@ -41,8 +41,6 @@
 .images img{
   display: block;
   Width:500px;
-
-
 }
 
 .overskrift{

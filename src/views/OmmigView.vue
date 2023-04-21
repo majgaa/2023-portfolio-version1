@@ -43,11 +43,32 @@ hver morgen.</p3>
     
   </main>
 
-  <div class="kontakt">
-  <div class="overskrift"> <h1>Kontakt mig</h1></div>
-  <p>E-mail: majkengaasedal@hotmail.com<br>
-  Tlf. nr: +45 28 18 96 19<br>
-LinkeDIn: https://www.linkedin.com/in/majken-gaasedal-303262269/</p>
+  <div class="columns-4">
+
+    <a href="https://firebasestorage.googleapis.com/v0/b/portfolio-2023-484f1.appspot.com/o/IG-grøn.png?alt=media&token=608ee8ab-7975-4901-a00d-62d331502659" target="blank">
+    <div class="ig">
+    <img src="@/assets/IG-grøn.png" alt="">
+  </div>
+  </a>
+
+  <a href="https://www.linkedin.com/in/majken-gaasedal-303262269/" target="blank">
+  <div class="in">
+    <img src="@/assets/in-grøn.png" alt="">
+  </div>
+</a>
+
+<a href="src/assets/VisitkortMG.pdf" target="blank">
+  <div class="mail">
+    <img src="@/assets/mail-grøn.png" alt="">
+  </div>
+</a>
+
+<a href="src/assets/VisitkortMG.pdf" target="blank">
+  <div class="mobil">
+    <img src="@/assets/mobil-grøn.png" alt="">
+  </div>
+</a>
+
 </div>
 
 </template>
@@ -75,18 +96,46 @@ justify-content:center;
   margin:20px;
 }
 
-.kontakt{
-  background-color:#e5fcf5;
+.columns-4{
+  background-color:#E5FCF5;
   color:#484538;
-  height:200px;
+  height:150px;
   width:100%;
-  padding:150px;
-  margin:px;
+  padding:60px 0 60px 175px;
+  margin:0;
   
 }
 
 .overskrift{
-font-size: 30px;
+font-size: 30px; 
+}
+
+.ig img{
+  height:50px;
+  width:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.in img{
+  height:50px;
+  width:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.mail img{
+  height:40px;
+  width:auto;
+  display:flex;
+  justify-content:center;
+}
+
+.mobil img{
+  height:50px;
+  width:auto;
+  display:flex;
+  justify-content:center;
 }
 
 </style>

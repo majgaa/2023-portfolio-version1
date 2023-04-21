@@ -5,7 +5,7 @@
     <p class="text-2xl ...">The quick brown fox ...</p>
     <p class="text-sky-400/100">The quick brown fox...</p>
 
-    {{ dataStuff }}
+    {{ dataStuff }} 
 
     <div v-for="i in myArray" :key="i">
       {{ i }}
