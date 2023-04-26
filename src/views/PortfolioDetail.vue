@@ -17,9 +17,9 @@
         
         <div class="text-container">
         <h4 class="overskrift">{{ portfolioDetails.title }}</h4>
-        <p>
-          {{ portfolioDetails.text }} hej
-        </p>
+       <p>
+          {{ portfolioDetails.text }} 
+        </p> 
         </div>
         
 

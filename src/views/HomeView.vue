@@ -24,13 +24,13 @@
       
     
       <div class="row forside-click-knap-container"> 
-      <a href="src/assets/VisitkortMG.pdf" target="blank" class="forside-click-knap col-2">
+      <a href="src/assets/Vueevisitkort.pdf" target="blank" class="forside-click-knap col-2">
         <div>
           <h3>VISITKORT</h3>
         </div>
       </a>
         
-      <a href="src/assets/cvMG.pdf" target="blank" class="forside-click-knap col-2">
+      <a href="src/assets/cv.pdf" target="blank" class="forside-click-knap col-2">
         <div>
           <h3>CV</h3>
         </div>
